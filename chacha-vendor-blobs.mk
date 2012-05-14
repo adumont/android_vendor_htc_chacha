@@ -45,6 +45,14 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/htc/chacha/proprietary/bin/akmd:/system/bin/akmd
 
+# GPS hw lib
+PRODUCT_COPY_FILES += \
+    vendor/htc/chacha/proprietary/lib/hw/gps.chacha.so:system/lib/hw/gps.chacha.so
+
+# Sensors hw lib
+PRODUCT_COPY_FILES += \
+    vendor/htc/chacha/proprietary/lib/hw/sensors.chacha.so:system/lib/hw/sensors.chacha.so
+
 # RIL
 PRODUCT_COPY_FILES += \
     vendor/htc/chacha/proprietary/lib/libaudioeq.so:/system/lib/libaudioeq.so \
